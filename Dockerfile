@@ -1,5 +1,4 @@
 FROM ruby:2.3-alpine
-FROM alpine:edge
 MAINTAINER Ted de Vaal <ted.de.vaal@sentia.com>
 
 RUN apk update && apk add \ 
