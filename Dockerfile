@@ -1,5 +1,6 @@
+FROM ruby:2.3
 FROM alpine:edge
-MAINTAINER Xueshan Feng <sfeng@stanford.edu>
+MAINTAINER Ted de Vaal <ted.de.vaal@sentia.com>
 
 RUN apk update && apk add \ 
       bash \
